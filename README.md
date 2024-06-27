@@ -14,7 +14,7 @@ To run this test, use command `npm run cypress:run` or `npx cypress run --spec "
 ## Additional Notes
 In terms of expanding this code, the following could be considered:
 - Creating more reusable functions similar to the generateRandomInterestRate function to clean up any redundancies
-- Be more data-driven rather than randomly generating values. While this is good for spot checking the field's functionality, having set interest rate values may be more beneficial to ensure the functionality of the calculator as a whole and ensures more accurate validation, avoiding any extreme edge cases that are less likely to occur on a regular basis.
+- Be more data-driven rather than randomly generating values. While this is good for spot checking the field's functionality, having set interest rate values may be more beneficial to ensure the functionality of the calculator as a whole and ensures more accurate validation, avoiding any extreme edge cases that are less likely to occur.
 - Add cross-functional browser testing
 
 For future considerations, I would suggest:
