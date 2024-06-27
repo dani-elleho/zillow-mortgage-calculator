@@ -22,4 +22,4 @@ For future considerations, I would suggest:
 - if the test suite becomes too large, separate into individual tests and configure Cypress to run the tests in parallel to reduce test execution time
 
 Potential Issues:
-- If any of the error messages change, the assertions will begin to fail since they are hardcoded. To resolve this, I would maybe suggest adding identifiers to the elements themselves. This will allow the code to be more dynamic and fail less if UI changes such as text changes occur.
+- If any of the error messages change, the assertions will begin to fail since they are hardcoded to validate the text itself. To resolve this, I would maybe suggest adding identifiers to the error message elements themselves. This will allow the code to be more dynamic and fail less if UI changes such as text changes occur.
